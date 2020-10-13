@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Component">
+      <UniqueIdentifier>{ef140161-fad6-4070-ab69-d4c931fb168d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Entity">
+      <UniqueIdentifier>{0b2b20de-18d7-4231-8817-98876d12db9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\System">
+      <UniqueIdentifier>{d44c0a27-03bd-4328-b34c-f094fa2f7a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Graphics">
+      <UniqueIdentifier>{4b902efb-363e-4a2a-a873-e282ba69f895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utilities">
+      <UniqueIdentifier>{5eb12e40-95d5-4161-b78e-1e6b1c58457b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Resources">
+      <UniqueIdentifier>{b5b90fb4-4bf1-426f-9d72-db5037a04c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Main">
+      <UniqueIdentifier>{89b18730-9575-435d-ba49-d6ab29997424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Extern">
+      <UniqueIdentifier>{4f5dd5b3-f2c7-452b-a839-523576bdc6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Extern\glad">
+      <UniqueIdentifier>{b04427e6-885e-4317-be23-602b7a4425a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Extern\ImGui">
+      <UniqueIdentifier>{cafd8f6a-b6d9-4ef3-a6d6-9bd422b976e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Extern\stb_image">
+      <UniqueIdentifier>{568f1414-63b1-4120-b09b-54b08abfdf13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Component\Component.cpp">
+      <Filter>源文件\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\EditorCamera.cpp">
+      <Filter>源文件\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\EditorUI.cpp">
+      <Filter>源文件\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\Input.cpp">
+      <Filter>源文件\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\Renderer.cpp">
+      <Filter>源文件\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\SceneBlock.cpp">
+      <Filter>源文件\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\Time.cpp">
+      <Filter>源文件\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\Transform.cpp">
+      <Filter>源文件\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entity\Entity.cpp">
+      <Filter>源文件\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\EditorCameraSystem.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\InputSystem.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\RenderSystem.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\System.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\TimeSystem.cpp">
+      <Filter>源文件\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Mesh.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Model.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Texture.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Vertex.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utilities\UtilityFunction.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utilities\Window.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main\main.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Extern\glad\glad.c">
+      <Filter>源文件\Extern\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Extern\ImGui\imgui.cpp">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Extern\ImGui\imgui_demo.cpp">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Extern\ImGui\imgui_draw.cpp">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Extern\ImGui\imgui_impl_glfw.cpp">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Extern\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Extern\ImGui\imgui_widgets.cpp">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Extern\stb_image\stb_image.cpp">
+      <Filter>源文件\Extern\stb_image</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Component\Component.h">
+      <Filter>源文件\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\EditorCamera.h">
+      <Filter>源文件\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\EditorUI.h">
+      <Filter>源文件\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\Input.h">
+      <Filter>源文件\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\Renderer.h">
+      <Filter>源文件\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\SceneBlock.h">
+      <Filter>源文件\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\Time.h">
+      <Filter>源文件\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\Transform.h">
+      <Filter>源文件\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entity\Entity.h">
+      <Filter>源文件\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\EditorCameraSystem.h">
+      <Filter>源文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\InputSystem.h">
+      <Filter>源文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\RenderSystem.h">
+      <Filter>源文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\System.h">
+      <Filter>源文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\TimeSystem.h">
+      <Filter>源文件\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Mesh.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Model.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Texture.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Vertex.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utilities\UtilityFunction.h">
+      <Filter>源文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utilities\Window.h">
+      <Filter>源文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Extern\ImGui\imconfig.h">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Extern\ImGui\imgui.h">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Extern\ImGui\imgui_impl_glfw.h">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Extern\ImGui\imgui_impl_opengl3.h">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Extern\ImGui\imgui_internal.h">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Extern\ImGui\imstb_rectpack.h">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Extern\ImGui\imstb_textedit.h">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Extern\ImGui\imstb_truetype.h">
+      <Filter>源文件\Extern\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Resources\default_shader.fs">
+      <Filter>源文件\Resources</Filter>
+    </None>
+    <None Include="Source\Resources\default_shader.vs">
+      <Filter>源文件\Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
